@@ -1,0 +1,15 @@
+0: type in terminal: ./Makefile or make to compile application
+
+1: if make file is not working for some reason type these in terminal:
+   :: gcc -c p_simulation.c
+   :: gcc -o p_simulation p_simulation.o -lgsl -lgslcblas -lm
+
+2: after compilation run application:
+   :: ./p_simulation n k d d_percentage sc
+   # -> n = number of processes
+   # -> k = max arrival time 
+   # -> d = average total CPU time
+   # -> d_percentage = fixed percentage of d for standard deviation v
+   # -> sc = simulation circles
+   Here is example:
+   :: ./p_simulation 10 10 100 85.0 10

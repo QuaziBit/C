@@ -1,0 +1,9 @@
+IN TERMINAL TYPE:
+
+gcc -c name.c
+gcc name.o -o output.exe
+
+TO RUN APPLICATION TYPE:
+
+FOR WINDOWS: output.exe
+FOR LINUX: ./output.exe

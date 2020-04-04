@@ -1,0 +1,17 @@
+This is your simple make file for hello program.
+------------------------------------------------
+CC      = gcc
+CFLAGS  = -g
+RM      = rm -f
+
+
+default: all
+
+all: Hello
+
+Hello: Hello.c
+    $(CC) $(CFLAGS) -o Hello Hello.c
+
+clean veryclean:
+    $(RM) Hello
+------------------------------------------------

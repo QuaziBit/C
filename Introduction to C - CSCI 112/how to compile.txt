@@ -1,0 +1,3 @@
+Compile C:
+	g++ -c file_name.c
+	g++ -o out_put_exe_file file_name.o
